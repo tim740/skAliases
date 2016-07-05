@@ -14,7 +14,7 @@
 # You can make an alias match multiple types by separating them with a comma, e.g. 'water = 8, 9'.
 # You can also include data values, e.g. 'orange wool = 35:1'. Data Values can be a range,
 # e.g. 'wet farmland = 60:1-8' (60:0 is dry farmland)
-# 
+#
 # == Advanced ==
 # As different languages have different ways of forming plurals of words you have to define the plurals of all aliases yourself.
 # This is done by adding the plural ending after a ¦ character, e.g. 'log¦s = 17'.

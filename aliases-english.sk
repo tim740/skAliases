@@ -773,12 +773,35 @@ default aliases:
 	{log direction no default}(_| )(log¦s|wood) = 17, 162
 	{log direction}(_| )log(_| )<item/block> = 17, 162
 
-	{tree type}(_| )leaves @x = 18
-	oak(_| )leaves = 18, 18:4, 18:8, 18:12
-	spruce(_| )leaves = 18:1, 18:5, 18:9, 18:13
-	birch(_| )leaves = 18:2, 18:6, 18:10, 18:14
-	jungle(_| )leaves = 18:3, 18:7, 18:11, 18:15
-	{tree type}(_| )permanent(_| )leaves @x = 18:4-7, 18:12-15
+
+	oak(_| )leaves = 18
+	spruce(_| )leaves = 18:1
+	birch(_| )leaves = 18:2
+	jungle(_| )leaves = 18:3
+	acacia(_| )leaves = 161
+	dark(_| )oak(_| )leaves = 161:1
+
+	undecaying(_| )oak(_| )leaves = 18:4
+	undecaying(_| )spruce(_| )leaves = 18:5
+	undecaying(_| )birch(_| )leaves = 18:6
+	undecaying(_| )jungle(_| )leaves = 18:7
+	undecaying(_| )acacia(_| )leaves = 161:4
+	undecaying(_| )dark(_| )oak(_| )leaves = 161:5
+
+	decaying(_| )oak(_| )leaves = 18:8
+	decaying(_| )spruce(_| )leaves = 18:9
+	decaying(_| )birch(_| )leaves = 18:10
+	decaying(_| )jungle(_| )leaves = 18:11
+	decaying(_| )acacia(_| )leaves = 161:8
+	decaying(_| )dark(_| )oak(_| )leaves = 161:9
+
+	decaying(_| )undecaying(_| )oak(_| )leaves = 18:12
+	decaying(_| )undecaying(_| )spruce(_| )leaves = 18:13
+	decaying(_| )undecaying(_| )birch(_| )leaves = 18:14
+	decaying(_| )undecaying(_| )jungle(_| )leaves = 18:15
+	decaying(_| )undecaying(_| )acacia(_| )leaves = 161:12
+	decaying(_| )undecaying(_| )dark(_| )oak(_| )leaves = 161:13
+
 
 	sponge¦s = 19
 	wet(_| )sponge¦s = 19:1

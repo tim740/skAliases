@@ -1,8 +1,8 @@
-#! VERSION: 1.9.6!
+#! VERSION: 1.9.7!
 
 #Clean up, ID order and updated by tim740, I will be updating this from now on!
 #Also check out my UDL for Atom: https://forums.skunity.com/t/skriptdark-atom-ide-udl/1751
-#Download at: https://forums.skunity.com/t/latest-aliases-v1-9-6-id-order-full-1-10-support/40?u=tim740
+#Download at: https://forums.skunity.com/t/latest-aliases-v1-9-7-id-order-full-1-10-support/40?u=tim740
 
 #Start Info
 # In this file you can create aliases. An alias is a name for a block or an item, or a collection of such.
@@ -780,7 +780,12 @@ default aliases:
 	any(_| )jungle(_| )leaves = 18:3, 18:7, 18:11, 18:15
 	any(_| )acacia(_| )leaves = 161, 161:4, 161:8, 161:12
 	any(_| )dark(_| )oak(_| )leaves = 161:1, 161:5, 161:9, 161:13
-	any(_| )leaves = any_oak_leaves, any_spruce_leaves, any_birch_leaves, any_jungle_leaves, any_acacia_leaves, any_dark_oak_leaves
+
+	any(_| )leaves = 18:0-15, 161:0-1, 161:4-5, 161:8-9, 161:12-13
+	any(_| )normal(_| )leaves = 18:0-3, 161:0-1
+	any(_| )undecaying(_| )leaves = 18:4-7, 161:4-5
+	any(_| )decaying(_| )leaves = 18:8-11, 161:8-9
+	any(_| )decaying(_| )undecaying(_| )leaves = 18:12-15, 161:12-13
 
 	oak(_| )leaves = 18
 	spruce(_| )leaves = 18:1

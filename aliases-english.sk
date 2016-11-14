@@ -1,8 +1,8 @@
-#! VERSION: 1.9.8!
+#! VERSION: 1.9.9!
 
 #Clean up, ID order and updated by tim740, I will be updating this from now on!
 #Check out my other content here: https://tim740.github.io/
-#Download at: https://forums.skunity.com/t/latest-aliases-v1-9-7-id-order-full-1-10-support/40?u=tim740
+#Download at: https://forums.skunity.com/t/latest-aliases-v1-9-9-id-order-full-1-11-support/40?u=tim740
 
 item = item¦s
 block = block¦s
@@ -317,6 +317,13 @@ default aliases:
 		<any> = :0-15
 
 #End
+	# -- 1.11 --
+	observer¦s = 218
+	shulker(_| )(box|chest)¦s = 219
+	totem(_| )of(_| )Undying¦s = 449
+	shulker(_| )shell¦s = 450
+	treasure(_| )map¦s = 358
+
 	# -- 1.10 --
 	magma(_| )block¦s = 213
 	nether(_| )wart(_| )block¦s = 214

@@ -1,4 +1,4 @@
-#! VERSION: 1.9.9!
+#! VERSION: 2.0.0!
 
 #Clean up, ID order and updated by tim740, I will be updating this from now on!
 #Check out my other content here: https://tim740.github.io/
@@ -319,10 +319,27 @@ default aliases:
 #End
 	# -- 1.11 --
 	observer¦s = 218
-	shulker(_| )(box|chest)¦s = 219
 	totem(_| )of(_| )Undying¦s = 449
 	shulker(_| )shell¦s = 450
 	treasure(_| )map¦s = 358
+
+	[white(_| )]shulker(_| )(box|chest)¦s = 219
+	orange(_| )shulker(_| )(box|chest)¦s = 220
+	magenta(_| )shulker(_| )(box|chest)¦s = 221
+	light(_| )blue(_| )shulker(_| )(box|chest)¦s = 222
+	yellow(_| )shulker(_| )(box|chest)¦s = 223
+	(lime|light(_| )green)(_| )shulker(_| )(box|chest)¦s = 224
+	pink(_| )shulker(_| )(box|chest)¦s = 225
+	gray(_| )shulker(_| )(box|chest)¦s = 226
+	light(_| )gray(_| )shulker(_| )(box|chest)¦s = 227
+	cyan(_| )shulker(_| )(box|chest)¦s = 228
+	purple(_| )shulker(_| )(box|chest)¦s = 229
+	blue(_| )shulker(_| )(box|chest)¦s = 230
+	brown(_| )shulker(_| )(box|chest)¦s = 231
+	green(_| )shulker(_| )(box|chest)¦s = 232
+	red(_| )shulker(_| )(box|chest)¦s = 233
+	black(_| )shulker(_| )(box|chest)¦s = 234
+	any(_| )shulker(_| )(box|chest)¦s = 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234
 
 	# -- 1.10 --
 	magma(_| )block¦s = 213

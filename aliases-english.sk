@@ -1014,7 +1014,8 @@ default aliases:
 	(hay|wheat)(_| )block¦s = 170
 	block¦¦s¦(_| )of(_| )(hay|wheat) = 170
 
-	white(_| )(carpet|rug)¦s = 171
+	(carpet|rug)¦s = 171
+	white(_| )(carpet|rug)¦s = 171:0
 	orange(_| )(carpet|rug)¦s = 171:1
 	magenta(_| )(carpet|rug)¦s = 171:2
 	light(_| )blue(_| )(carpet|rug)¦s = 171:3

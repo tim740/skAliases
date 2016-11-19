@@ -1348,7 +1348,7 @@ default aliases:
 	golden(_| )carrot¦s = 396
 	{mob head type}(_| )[mob](_| )head[(_| )item]¦s = 397
 	carrot¦(_| )on(_| )a(_| )stick¦s(_| )on(_| )sticks = 398
-	nether(_| )star¦s = 399
+	(wither|nether)(_| )star¦s = 399
 	pumpkin(_| )pie¦s = 400
 	firework(_| )rocket¦s = 401
 	firework(_| )star¦s = 402

@@ -132,10 +132,10 @@ default aliases:
 		cactus = :9
 		dead bush = :10
 		fern = :11
-	red sandstone double slab = 181
-	red sandstone slab = 182
-	nether brick slab = 44:6
-	nether quartz slab = 44:7
+	red sandstone double slab¦s = 181
+	red sandstone slab¦s = 182
+	nether brick slab¦s = 44:6
+	nether quartz slab¦s = 44:7
 	oak = 126:0
 	spruce = 126:1
 	birch = 126:2
@@ -349,7 +349,7 @@ default aliases:
 	structure(_| )void¦s = 217
 
 	# -- 1.9 --
-	ender(_| )rod¦s = 198
+	end[er](_| )rod¦s = 198
 	chorus(_| )plant¦s = 199
 	chorus(_| )flower¦s = 200
 	purpur(_| )block¦s = 201

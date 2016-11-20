@@ -1329,6 +1329,7 @@ default aliases:
 	eye¦¦s¦(_| )of(_| )ender @an = 381
 	glistering(_| )melon¦s = 382
 	spawn(_| )egg¦s = 383
+	noegg = 383:1
 	bottle¦¦s¦(_| )(o'|of)(_| )enchanting = 384
 	(xp|exp[erience])(_| )bottle¦s @an = 384
 	fire(_| )charge¦s = 385
@@ -1455,7 +1456,7 @@ default aliases:
 
 	#any glass = any glass block, any glass pane
 
-	any logx = 162:0-1, 17:0-3
+	any log @x = 162:0-1, 17:0-3
 
 	[<any>] leaves @x = 18:0-15, 161:0-15
 	[<any>] permanent leaves @x = 18:4-7, 18:12-15, 161:4-7, 161:12-15

@@ -1,4 +1,4 @@
-#! VERSION: 2.0.0!
+#! VERSION: 2.0.1!
 
 #Clean up, ID order and updated by tim740, I will be updating this from now on!
 #Check out my other content here: https://tim740.github.io/
@@ -132,16 +132,16 @@ default aliases:
 		cactus = :9
 		dead bush = :10
 		fern = :11
-	red sandstone double slab = 181
-	red sandstone slab = 182
-	nether brick slab = 44:6
-	nether quartz slab = 44:7
-	oak = 126:0
-	spruce = 126:1
-	birch = 126:2
-	jungle = 126:3
-	acacia = 126:4
-	dark(_| )oak = 126:5
+	red sandstone double slab¦s = 181
+	red sandstone slab¦s = 182
+	nether brick slab¦s = 44:6
+	nether quartz slab¦s = 44:7
+	oak(_| )stair¦s= 126:0
+	spruce(_| )stair¦= 126:1
+	birch(_| )stair¦= 126:2
+	jungle(_| )stair¦= 126:3
+	acacia(_| )stair¦= 126:4
+	dark(_| )oak(_| )stair¦= 126:5
 
 	# -- single & double steps / slabs --
 	{any slab}:
@@ -349,7 +349,7 @@ default aliases:
 	structure(_| )void¦s = 217
 
 	# -- 1.9 --
-	ender(_| )rod¦s = 198
+	end[er](_| )rod¦s = 198
 	chorus(_| )plant¦s = 199
 	chorus(_| )flower¦s = 200
 	purpur(_| )block¦s = 201
@@ -1050,6 +1050,7 @@ default aliases:
 	peon¦y¦ies = 175:5
 	[<any>](_| )large(_| )flower¦s = 175:0-1, 175:4-5
 	[<any>](_| )large(_| )plant¦s = 175:0-5
+	long(_| )grass = 175:6-15
 
 #	standing(_| )banner = 176
 
@@ -1329,6 +1330,7 @@ default aliases:
 	eye¦¦s¦(_| )of(_| )ender @an = 381
 	glistering(_| )melon¦s = 382
 	spawn(_| )egg¦s = 383
+	noegg = 383:1
 	bottle¦¦s¦(_| )(o'|of)(_| )enchanting = 384
 	(xp|exp[erience])(_| )bottle¦s @an = 384
 	fire(_| )charge¦s = 385
@@ -1348,7 +1350,7 @@ default aliases:
 	golden(_| )carrot¦s = 396
 	{mob head type}(_| )[mob](_| )head[(_| )item]¦s = 397
 	carrot¦(_| )on(_| )a(_| )stick¦s(_| )on(_| )sticks = 398
-	nether(_| )star¦s = 399
+	(nether|wither)(_| )star¦s = 399
 	pumpkin(_| )pie¦s = 400
 	firework(_| )rocket¦s = 401
 	firework(_| )star¦s = 402
@@ -1455,10 +1457,10 @@ default aliases:
 
 	#any glass = any glass block, any glass pane
 
-	any logx = 162:0-1, 17:0-3
+	any log = 162:0-1, 17:0-3
 
-	[<any>] leaves @x = 18:0-15, 161:0-15
-	[<any>] permanent leaves @x = 18:4-7, 18:12-15, 161:4-7, 161:12-15
+	[<any>] leaves = 18:0-15, 161:0-15
+	[<any>] permanent leaves = 18:4-7, 18:12-15, 161:4-7, 161:12-15
 
 	[<any>] flower¦s = any small flower, any large flower
 

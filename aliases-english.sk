@@ -1,4 +1,4 @@
-#! VERSION: 2.0.1!
+#! VERSION: 2.0.2!
 
 #Clean up, ID order and updated by tim740, I will be updating this from now on!
 #Check out my other content here: https://tim740.github.io/
@@ -233,7 +233,7 @@ default aliases:
 	{stairs direction no default} {stairs} stair[s] = :
 	{stairs direction} {stairs} stair[s] (block|item)¦s = :
 
-	# -- doors, trapdoors and fence gates --
+	# -- doors, trapdoors and fence(_| )gates --
 	# I currently discourage from creating aliases like 'open door' or doors with specific facings
 	# as any 'block is <alias>' condition will fail if you click the wrong part of the door.
 	# 'set <block> to door:1' will correctly place an open door though.
@@ -323,7 +323,7 @@ default aliases:
 	shulker(_| )shell¦s = 450
 	treasure(_| )map¦s = 358
 
-	[white(_| )]shulker(_| )(box|chest)¦s = 219
+	white(_| )shulker(_| )(box|chest)¦s = 219
 	orange(_| )shulker(_| )(box|chest)¦s = 220
 	magenta(_| )shulker(_| )(box|chest)¦s = 221
 	light(_| )blue(_| )shulker(_| )(box|chest)¦s = 222
@@ -333,7 +333,7 @@ default aliases:
 	gray(_| )shulker(_| )(box|chest)¦s = 226
 	light(_| )gray(_| )shulker(_| )(box|chest)¦s = 227
 	cyan(_| )shulker(_| )(box|chest)¦s = 228
-	purple(_| )shulker(_| )(box|chest)¦s = 229
+	[purple(_| )]shulker(_| )(box|chest)¦s = 229
 	blue(_| )shulker(_| )(box|chest)¦s = 230
 	brown(_| )shulker(_| )(box|chest)¦s = 231
 	green(_| )shulker(_| )(box|chest)¦s = 232
@@ -404,6 +404,12 @@ default aliases:
 	any(_| )axe = 258, 271, 275, 279, 286
 	any(_| )shovel = 256, 269, 273, 277, 284
 	any(_| )hoe = 290, 291, 292, 293, 294
+
+	any(_| )fence(_| )gate¦s = 107, 183, 184, 185, 186, 187
+	any(_| )trapdoor¦s = 96, 167
+	any(_| )normal(_| )pressure(_| )plate¦s = 70, 72
+	any(_| )weight(_| )pressure(_| )plate¦s 147, 148
+	any(_| )pressure(_| )plate¦s = 70, 72, 147, 148
 
 	# IN ID ORDER STARTING NOW
 	(air|nothing|none|empty) @- = 0
@@ -814,9 +820,9 @@ default aliases:
 	quadruple(_| )vine[s] = 106:15
 
 	#oak
-	oak fence gate¦s = 107
-	open[ed] oak fence gate¦s = 107:4-7
-	closed oak fence gate¦s = 107:0-3
+	oak(_| )fence(_| )gate¦s = 107
+	open[ed](_| )oak(_| )fence(_| )gate¦s = 107:4-7
+	closed(_| )oak(_| )fence(_| )gate¦s = 107:0-3
 
 #brick stairs=108 stone brick stairs=109
 
@@ -1065,25 +1071,25 @@ default aliases:
 #red sandstone stairs=180 double stone slab2=181 stone slab2=182
 
 #spruce
-	spruce fence gate¦s = 183
-	open[ed] spruce fence gate¦s = 183:4-7
-	closed spruce fence gate¦s = 183:0-3
+	spruce(_| )fence(_| )gate¦s = 183
+	open[ed](_| )spruce fence(_| )gate¦s = 183:4-7
+	closed(_| )spruce fence(_| )gate¦s = 183:0-3
 #birch
-	birch fence gate¦s = 184
-	open[ed] birch fence gate¦s = 184:4-7
-	closed birch fence gate¦s = 184:0-3
+	birch(_| )fence(_| )gate¦s = 184
+	open[ed](_| )birch(_| )fence(_| )gate¦s = 184:4-7
+	closed(_| )birch(_| )fence(_| )gate¦s = 184:0-3
 #jungle
-	jungle fence gate¦s = 185
-	open[ed] jungle fence gate¦s = 185:4-7
-	closed jungle fence gate¦s = 185:0-3
+	jungle(_| )fence(_| )gate¦s = 185
+	open[ed](_| )jungle fence(_| )gate¦s = 185:4-7
+	closed(_| )jungle(_| )fence(_| )gate¦s = 185:0-3
 #dark oak
-	dark oak fence gate¦s = 186
-	open[ed] dark oak fence gate¦s = 186:4-7
-	closed dark oak fence gate¦s = 186:0-3
+	dark(_| )oak(_| )fence(_| )gate¦s = 186
+	open[ed](_| )dark(_| )oak(_| )fence(_| )gate¦s = 186:4-7
+	closed(_| )dark(_| )oak(_| )fence(_| )gate¦s = 186:0-3
 #acacia
-	acacia fence gate¦s = 187
-	open[ed] acacia fence gate¦s = 187:4-7
-	closed acacia fence gate¦s = 187:0-3
+	acacia(_| )fence(_| )gate¦s = 187
+	open[ed](_| )acacia(_| )fence(_| )gate¦s = 187:4-7
+	closed(_| )acacia(_| )fence(_| )gate¦s = 187:0-3
 
 	spruce(_| )fence = 188
 
@@ -1362,6 +1368,7 @@ default aliases:
 	hopper(_| )minecart¦s = 408
 	prismarine(_| )shard¦s = 409:0
 	prismarine(_| )crystal¦s = 410
+	any(_| )rabbit(_| )meat = 411, 412
 	raw(_| )rabbit = 411
 	cooked(_| )rabbit = 412
 	rabbit(_| )stew = 413
@@ -1374,6 +1381,7 @@ default aliases:
 	lead¦s = 420
 	name(_| )tag¦s = 421
 	command(_| )block(_| )minecart¦¦s¦ = 422
+	any(_| )mutton = 423, 424
 	raw(_| )mutton = 423
 	cooked(_| )mutton = 424
 	any(_| )banner = 176:0-15, 177:0-15, 425:0-15

@@ -1,4 +1,4 @@
-#! VERSION: 2.0.2!
+#! VERSION: 2.0.3!
 
 #Clean up, ID order and updated by tim740, I will be updating this from now on!
 #Check out my other content here: https://tim740.github.io/
@@ -408,7 +408,7 @@ default aliases:
 	any(_| )fence(_| )gate¦s = 107, 183, 184, 185, 186, 187
 	any(_| )trapdoor¦s = 96, 167
 	any(_| )normal(_| )pressure(_| )plate¦s = 70, 72
-	any(_| )weight(_| )pressure(_| )plate¦s 147, 148
+	any(_| )weight(_| )pressure(_| )plate¦s = 147, 148
 	any(_| )pressure(_| )plate¦s = 70, 72, 147, 148
 
 	# IN ID ORDER STARTING NOW

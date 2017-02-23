@@ -322,7 +322,7 @@ default aliases:
 	observer¦s = 218
 
 	white(_| )shulker(_| )(box|chest)¦s = 219
-	orange(_| )shulker(_| )(box|chest)¦s = 220
+	orange(_| )shulker(_| )(box|chest)¦s @an = 220
 	magenta(_| )shulker(_| )(box|chest)¦s = 221
 	light(_| )blue(_| )shulker(_| )(box|chest)¦s = 222
 	yellow(_| )shulker(_| )(box|chest)¦s = 223
@@ -342,7 +342,7 @@ default aliases:
 	treasure(_| )map¦s = 358
 	totem(_| )of(_| )Undying¦s = 449
 	shulker(_| )shell¦s = 450
-	iron(_| )nugget¦s = 452
+	iron(_| )nugget¦s @an = 452
 
 	# -- 1.10 --
 	magma(_| )block¦s = 213
@@ -352,7 +352,7 @@ default aliases:
 	structure(_| )void¦s = 217
 
 	# -- 1.9 --
-	end[er](_| )rod¦s = 198
+	end[er](_| )rod¦s an = 198
 	chorus(_| )plant¦s = 199
 	chorus(_| )flower¦s = 200
 	purpur(_| )block¦s = 201
@@ -360,18 +360,18 @@ default aliases:
 	purpur(_| )stairs = 203
 	purpur(_| )double(_| )slab¦s = 204
 	purpur(_| )slab¦s = 205
-	endstone(_| )bricks = 206
+	endstone(_| )bricks @an = 206
 	beetroot(_| )block¦s = 207
 	grass(_| )path¦s = 208
-	ender(_| )gateway¦s = 209
+	ender(_| )gateway¦s @an = 209
 	repeating(_| )command(_| )block¦s = 210
 	chain(_| )command(_| )block¦s = 211
-	frosted(_| )ice¦s = 212
+	frosted(_| )ice¦s @- = 212
 
 	structure(_| )block¦s = 255
 
 	dragon(_| )head¦s = 397:5
-	ender(_| )crystal¦s = 426
+	ender(_| )crystal¦s @an = 426
 	chorus(_| )fruit¦s = 432
 	popped(_| )chorus(_| )fruit¦s = 433
 	beetroot¦s = 434

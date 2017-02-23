@@ -535,7 +535,7 @@ default aliases:
 	note(_| )block¦s = 25
 
 	bed(_| )block¦s = 26
-	bed(_| )item¦s = 355
+	bed[(_| )item]¦s = 355
 	(head|top)(_| )bed(_| )block = 26:8-15
 	(foot|bottom)(_| )bed(_| )block = 26:0-7
 	[<any>](_| )bed¦s = 26, 355

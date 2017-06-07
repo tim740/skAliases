@@ -1,4 +1,4 @@
-#! VERSION: 2.0.5!
+#! VERSION: 2.0.6!
 
 #Clean up, ID order and updated by tim740, I will be updating this from now on!
 #Check out my other content here: https://tim740.github.io/
@@ -42,7 +42,7 @@ collections:
 	# all ores
 	ore¦s = coal ore, iron ore, gold ore, diamond ore, lapis ore, any redstone ore
 	# fuels, i.e. items which can be burned in the furnace
-	fuel¦s = lava bucket, blaze rod, any coal, planks, log, huge mushroom, workbench, fence, wooden stairs, oak trapdoor, sapling, stick, chest, jukebox, note block
+	fuel¦s = lava bucket, blaze rod, any coal, any wood plank, log, huge mushroom, workbench, fence, wooden stairs, oak trapdoor, sapling, stick, chest, jukebox, note block
 	# note: the above aliases are used in 'furnace automatisation.cfg'
 
 	# all food which can be eaten by rightclicking, i.e. doesn't include cake.
@@ -270,53 +270,64 @@ default aliases:
 		clownfish¦es = :2
 		pufferfish¦es = :3
 
-
-
-
-	# -- wood, leaves, saplings & planks --
-	{tree type}:
-		{default} = :0-15
-		(normal|regular|oak) = :0, :4, :8, :12
-		(pine|redwood|fir|spruce) = :1, :5, :9, :13
-		birch = :2, :6, :10, :14
-		jungle = :3, :7, :11, :15
-	{tree type 2}:
-		{default} = :0-15
-		acacia = :0, :4, :8, :12, :2, :6, :10, :14
-		dark oak = :1, :5, :9, :13, :3, :7, :11, :15
-	{wood type}:
-		{default} = :0-5
-		<any> = :0-5
-		(oak|regular|normal) = :0
-		(spruce|fir|redwood|pine) = :1
-		birch = :2
-		jungle = :3
-		acacia = :4
-		dark oak = :5
-
-	{log direction}:
-		{default} = :0-3
-		vertical = :0-3
-		east-west = :4-7
-		west-east = :4-7
-		south-north = :8-11
-		north-south = :8-11
-		horizontal = :4-11
-		rotated = :4-11
-		full[[ ]block] = :12-15
-		<any> = :0-15
-	{log direction no default}:
-		vertical = :0-3
-		east-west = :4-7
-		west-east = :4-7
-		south-north = :8-11
-		north-south = :8-11
-		horizontal = :4-11
-		rotated = :4-11
-		full[[ ]block] = :12-15
-		<any> = :0-15
-
 #End
+
+	# -- 1.12 --
+	[white(_| )]glazed(_| )terracotta¦s = 235
+	orange(_| )glazed(_| )terracotta¦s = 236
+	magenta(_| )glazed(_| )terracotta¦s = 237
+	light(_| )blue(_| )glazed(_| )terracotta¦s = 238
+	yellow(_| )glazed(_| )terracotta¦s = 239
+	(lime|light(_| )green)(_| )glazed(_| )terracotta¦s = 240
+	pink(_| )glazed(_| )terracotta¦s = 241
+	gray(_| )glazed(_| )terracotta¦s = 242
+	light(_| )gray(_| )glazed(_| )terracotta¦s = 243
+	cyan(_| )glazed(_| )terracotta¦s = 244
+	purple(_| )glazed(_| )terracotta¦s = 245
+	blue(_| )glazed(_| )terracotta¦s = 246
+	brown(_| )glazed(_| )terracotta¦s = 247
+	green(_| )glazed(_| )terracotta¦s = 248
+	red(_| )glazed(_| )terracotta¦s = 249
+	black(_| )glazed(_| )terracotta¦s = 250
+	[<any>](_| )glazed(_| )terracotta¦s = 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250
+
+	[white(_| )]concrete¦s = 251
+	orange(_| )concrete¦s = 251:1
+	magenta(_| )concrete¦s = 251:2
+	light(_| )blue(_| )concrete¦s = 251:3
+	yellow(_| )concrete¦s = 251:4
+	(lime|light(_| )green)(_| )concrete¦s = 251:5
+	pink(_| )concrete¦s = 251:6
+	gray(_| )concrete¦s = 251:7
+	light(_| )gray(_| )concrete¦s = 251:8
+	cyan(_| )concrete¦s = 251:9
+	purple(_| )concrete¦s = 251:10
+	blue(_| )concrete¦s = 251:11
+	brown(_| )concrete¦s = 251:12
+	green(_| )concrete¦s = 251:13
+	red(_| )concrete¦s = 251:14
+	black(_| )concrete¦s = 251:15
+	[<any>](_| )concrete¦s = 251, 251:1, 251:2, 251:3, 251:4, 251:5, 251:6, 251:7, 251:8, 251:9, 251:10, 251:11, 251:12, 251:13, 251:14, 251:15
+
+	[white(_| )]concrete(_| )powder¦s = 252
+	orange(_| )concrete(_| )powder¦s = 252:1
+	magenta(_| )concrete(_| )powder¦s = 252:2
+	light(_| )blue(_| )concrete(_| )powder¦s = 252:3
+	yellow(_| )concrete(_| )powder¦s = 252:4
+	(lime|light(_| )green)(_| )concrete(_| )powder¦s = 252:5
+	pink(_| )concrete(_| )powder¦s = 252:6
+	gray(_| )concrete(_| )powder¦s = 252:7
+	light(_| )gray(_| )concrete(_| )powder¦s = 252:8
+	cyan(_| )concrete(_| )powder¦s = 252:9
+	purple(_| )concrete(_| )powder¦s = 252:10
+	blue(_| )concrete(_| )powder¦s = 252:11
+	brown(_| )concrete(_| )powder¦s = 252:12
+	green(_| )concrete(_| )powder¦s = 252:13
+	red(_| )concrete(_| )powder¦s = 252:14
+	black(_| )concrete(_| )powder¦s = 252:15
+	[<any>](_| )concrete(_| )powder¦s = 252, 252:1, 252:2, 252:3, 252:4, 252:5, 252:6, 252:7, 252:8, 252:9, 252:10, 252:11, 252:12, 252:13, 252:14, 252:15
+
+	knowledge(_| )book¦s = 453
 
 	# -- 1.11 --
 	observer¦s = 218
@@ -434,9 +445,21 @@ default aliases:
 
 	cobble[stone] = 4
 
-	{wood type}(_| )(plank|wood[en] plank)¦s = 5
+	oak(_| )[wood[en](_| )]plank¦s = 5
+	spruce(_| )[wood[en](_| )]plank¦s = 5:1
+	birch(_| )[wood[en](_| )]plank¦s = 5:2
+	jungle(_| )[wood[en](_| )]plank¦s = 5:3
+	acacia(_| )[wood[en](_| )]plank¦s = 5:4
+	dark(_| )oak(_| )[wood[en](_| )]plank¦s = 5:5
+	[<any>](_| )wood[en](_| )plank = 5:0-5
 
-	{wood type}(_| )sapling¦s = 6
+	oak(_| )sapling¦s = 6
+	spruce(_| )sapling¦s = 6:1
+	birch(_| )sapling¦s = 6:2
+	jungle(_| )sapling¦s = 6:3
+	acacia(_| )sapling¦s = 6:4
+	dark(_| )sapling¦s = 6:5
+	[<any>](_| )sapling = 6:0-5
 
 	bedrock = 7
 
@@ -469,24 +492,41 @@ default aliases:
 
 	coal(_| )ore¦s = 16
 
-	{log direction no default}(_| ){tree type}(_| )(log¦s|wood) = 17
-	{log direction} {tree type}(_| )(log|wood)(_| )<item/block> = 17
-	{log direction no default}(_| )(log¦s|wood) = 17, 162
-	{log direction}(_| )log(_| )<item/block> = 17, 162
+	#---
+
+	oak(_| )[wood[en](_| )]log¦s = 17
+	spruce(_| )[wood[en](_| )]log¦s = 17:1
+	birch(_| )[wood[en](_| )]log¦s = 17:2
+	jungle(_| )[wood[en](_| )]log¦s = 17:3
+	acacia(_| )[wood[en](_| )]log¦s = 162
+	dark(_| )oak(_| )[wood[en](_| )]log¦s = 162:1
+	[<any>](_| )[wood[en](_| )]log¦s = 17:0-3, 162:0-1
 
 
-	[<any>](_| )oak(_| )leaves = 18, 18:4, 18:8, 18:12
-	[<any>](_| )spruce(_| )leaves = 18:1, 18:5, 18:9, 18:13
-	[<any>](_| )birch(_| )leaves = 18:2, 18:6, 18:10, 18:14
-	[<any>](_| )jungle(_| )leaves = 18:3, 18:7, 18:11, 18:15
-	[<any>](_| )acacia(_| )leaves = 161, 161:4, 161:8, 161:12
-	[<any>](_| )dark(_| )oak(_| )leaves = 161:1, 161:5, 161:9, 161:13
+	oak(_| )[wood[en](_| )]log¦s(_| )north-south = 17:8
+	spruce(_| )[wood[en](_| )]log¦s(_| )north-south = 17:9
+	birch(_| )[wood[en](_| )]log¦s(_| )north-south = 17:10
+	jungle(_| )[wood[en](_| )]log¦s(_| )north-south = 17:11
+	acacia(_| )[wood[en](_| )]log¦s(_| )north-south = 162:8
+	dark(_| )oak(_| )[wood[en](_| )]logv(_| )north-south = 162:9
+	[<any>](_| )[wood[en](_| )]log¦s(_| )north-south = 17:8-11, 162:8-9
 
-	[<any>](_| )leaves = 18:0-15, 161:0-1, 161:4-5, 161:8-9, 161:12-13
-	[<any>](_| )normal(_| )leaves = 18:0-3, 161:0-1
-	[<any>](_| )undecaying(_| )leaves = 18:4-7, 161:4-5
-	[<any>](_| )decaying(_| )leaves = 18:8-11, 161:8-9
-	[<any>](_| )decaying(_| )undecaying(_| )leaves = 18:12-15, 161:12-13
+	oak(_| )[wood[en](_| )]log¦s(_| )east-west = 17:4
+	spruce(_| )[wood[en](_| )]log¦s(_| )east-west = 17:5
+	birch(_| )[wood[en](_| )]log¦s(_| )east-west = 17:6
+	junsgle(_| )[wood[en](_| )]log¦s(_| )east-west = 17:7
+	acacia(_| )[wood[en](_| )]log¦s(_| )east-west = 162:4
+	dark(_| )oak(_| )[wood[en](_| )]log¦s(_| )east-west = 162:5
+	[<any>](_| )[wood[en](_| )]log¦s(_| )east-west = 17:4-7, 162:4-5
+
+	[<any>](_| )oak(_| )[wood[en](_| )]log¦s = 17, 17:8, 17:4
+	[<any>](_| )spruce(_| )[wood[en](_| )]log¦s = 17:1, 17:9, 17:5
+	[<any>](_| )birch(_| )[wood[en](_| )]log¦s = 17:2, 17:10, 17:6
+	[<any>](_| )jungle(_| )[wood[en](_| )]log¦s = 17:3, 17:11, 17:7
+	[<any>](_| )acacia(_| )[wood[en](_| )]log¦s = 162, 162:8, 162:4
+	[<any>](_| )dark(_| )oak(_| )[wood[en](_| )]log¦s = 162:1, 162:9, 162:5
+
+	# ---
 
 	oak(_| )leaves = 18
 	spruce(_| )leaves = 18:1
@@ -516,6 +556,20 @@ default aliases:
 	decaying(_| )undecaying(_| )acacia(_| )leaves = 161:12
 	decaying(_| )undecaying(_| )dark(_| )oak(_| )leaves = 161:13
 
+	[<any>](_| )oak(_| )leaves = 18, 18:4, 18:8, 18:12
+	[<any>](_| )spruce(_| )leaves = 18:1, 18:5, 18:9, 18:13
+	[<any>](_| )birch(_| )leaves = 18:2, 18:6, 18:10, 18:14
+	[<any>](_| )jungle(_| )leaves = 18:3, 18:7, 18:11, 18:15
+	[<any>](_| )acacia(_| )leaves = 161, 161:4, 161:8, 161:12
+	[<any>](_| )dark(_| )oak(_| )leaves = 161:1, 161:5, 161:9, 161:13
+
+	[<any>](_| )leaves = 18:0-15, 161:0-1, 161:4-5, 161:8-9, 161:12-13
+	[<any>](_| )normal(_| )leaves = 18:0-3, 161:0-1
+	[<any>](_| )undecaying(_| )leaves = 18:4-7, 161:4-5
+	[<any>](_| )decaying(_| )leaves = 18:8-11, 161:8-9
+	[<any>](_| )decaying(_| )undecaying(_| )leaves = 18:12-15, 161:12-13
+
+	#---
 
 	sponge¦s = 19
 	wet(_| )sponge¦s = 19:1
@@ -959,23 +1013,23 @@ default aliases:
 
 	dropper¦s = 158
 
-	white(_| )[stained](_| )[hard[ened]](_| )clay = 159
-	orange(_| )[stained](_| )[hard[ened]](_| )clay = 159:1
-	magenta(_| )[stained](_| )[hard[ened]](_| )clay = 159:2
-	light(_| )blue(_| )[stained](_| )[hard[ened]](_| )clay = 159:3
-	yellow(_| )[stained](_| )[hard[ened]](_| )clay = 159:4
-	light(_| )green(_| )[stained](_| )[hard[ened]](_| )clay = 159:5
-	pink(_| )[stained](_| )[hard[ened]](_| )clay = 159:6
-	gray(_| )[stained](_| )[hard[ened]](_| )clay = 159:7
-	light(_| )gray(_| )[stained](_| )[hard[ened]](_| )clay = 159:8
-	cyan(_| )[stained](_| )[hard[ened]](_| )clay = 159:9
-	purple(_| )[stained](_| )[hard[ened]](_| )clay = 159:10
-	blue(_| )[stained](_| )[hard[ened]](_| )clay = 159:11
-	brown(_| )[stained](_| )[hard[ened]](_| )clay = 159:12
-	[dark(_| )]green(_| )[stained](_| )[hard[ened]](_| )clay = 159:13
-	red(_| )[stained](_| )[hard[ened]](_| )clay = 159:14
-	black(_| )[stained](_| )[hard[ened]](_| )clay = 159:15
-	[<any>](_| )[stained](_| )[hard[ened]](_| )clay = 159:0-15
+	white(_| )(terracotta|[stained](_| )[hard[ened]](_| )clay) = 159
+	orange(_| )(terracotta|[stained](_| )[hard[ened]](_| )clay) = 159:1
+	magenta(_| )(terracotta|[stained](_| )[hard[ened]](_| )clay) = 159:2
+	light(_| )blue(_| )(terracotta|[stained](_| )[hard[ened]](_| )clay) = 159:3
+	yellow(_| )(terracotta|[stained](_| )[hard[ened]](_| )clay) = 159:4
+	light(_| )green(_| )(terracotta|[stained](_| )[hard[ened]](_| )clay) = 159:5
+	pink(_| )(terracotta|[stained](_| )[hard[ened]](_| )clay) = 159:6
+	gray(_| )(terracotta|[stained](_| )[hard[ened]](_| )clay) = 159:7
+	light(_| )gray(_| )(terracotta|[stained](_| )[hard[ened]](_| )clay) = 159:8
+	cyan(_| )(terracotta|[stained](_| )[hard[ened]](_| )clay) = 159:9
+	purple(_| )(terracotta|[stained](_| )[hard[ened]](_| )clay) = 159:10
+	blue(_| )(terracotta|[stained](_| )[hard[ened]](_| )clay) = 159:11
+	brown(_| )(terracotta|[stained](_| )[hard[ened]](_| )clay) = 159:12
+	[dark(_| )]green(_| )(terracotta|[stained](_| )[hard[ened]](_| )clay) = 159:13
+	red(_| )(terracotta|[stained](_| )[hard[ened]](_| )clay) = 159:14
+	black(_| )(terracotta|[stained](_| )[hard[ened]](_| )clay) = 159:15
+	[<any>](_| )(terracotta|[stained](_| )[hard[ened]](_| )clay) = 159:0-15
 
 	white(_| )[stained](_| )glass(_| )[pane] = 160
 	orange(_| )[stained](_| )glass(_| )[pane] = 160:1
@@ -994,16 +1048,6 @@ default aliases:
 	red(_| )[stained](_| )glass(_| )[pane] = 160:14
 	black(_| )[stained](_| )glass(_| )[pane] = 160:15
 	[<any>](_| )[stained](_| )glass(_| )[pane] = 160:0-15
-
-	acacia(_| )leaves = 161
-	dark(_| )oak(_| )leaves = 161:1
-	{tree type 2}(_| )leaves(_| )@x = 161
-	{tree type 2}(_| )permanent(_| )leaves(_| )@x = 161:4-7, 161:12-15
-
-	acacia(_| )wood(_| )block = 162:0
-	dark(_| )oak(_| )wood(_| )block = 162:1
-	{log direction no default}(_| ){tree type 2}(_| )(log¦s|wood) = 162
-	{log direction}(_| ){tree type 2}(_| )(log|wood)(_| )<item/block> = 162
 
 #acacia stairs=163/dark oak=164
 

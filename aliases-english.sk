@@ -514,36 +514,41 @@ default aliases:
 	#---
 
 	oak(_| )[wood[en](_| )]log¦s = 17
+	[<any>](_| )oak(_| )[wood[en](_| )]log¦s = 17:0, 17:4, 17:8
+	
 	spruce(_| )[wood[en](_| )]log¦s = 17:1
+	[<any>](_| )spruce(_| )[wood[en](_| )]log¦s = 17:1, 17:5, 17:9
+	
 	birch(_| )[wood[en](_| )]log¦s = 17:2
+	[<any>](_| )birch(_| )[wood[en](_| )]log¦s = 17:2, 17:6, 17:10
+	
 	jungle(_| )[wood[en](_| )]log¦s = 17:3
+	[<any>](_| )jungle(_| )[wood[en](_| )]log¦s = 17:3, 17:7, 17:11
+	
 	acacia(_| )[wood[en](_| )]log¦s = 162
+	[<any>](_| )acacia(_| )[wood[en](_| )]log¦s = 162:0, 162:4, 162:8
+	
 	dark(_| )oak(_| )[wood[en](_| )]log¦s = 162:1
-	[<any>](_| )[wood[en](_| )]log¦s = 17:0-3, 162:0-1
+	[<any>](_| )dark(_| )oak(_| )[wood[en](_| )]log¦s = 162:1, 162:5, 162:9
 
 
-	oak(_| )[wood[en](_| )]log¦s(_| )north-south = 17:8
-	spruce(_| )[wood[en](_| )]log¦s(_| )north-south = 17:9
-	birch(_| )[wood[en](_| )]log¦s(_| )north-south = 17:10
-	jungle(_| )[wood[en](_| )]log¦s(_| )north-south = 17:11
-	acacia(_| )[wood[en](_| )]log¦s(_| )north-south = 162:8
-	dark(_| )oak(_| )[wood[en](_| )]logv(_| )north-south = 162:9
-	[<any>](_| )[wood[en](_| )]log¦s(_| )north-south = 17:8-11, 162:8-9
+	oak(_| )[wood[en](_| )]log[s](_| )north-south = 17:8
+	spruce(_| )[wood[en](_| )]log[s](_| )north-south = 17:9
+	birch(_| )[wood[en](_| )]log[s](_| )north-south = 17:10
+	jungle(_| )[wood[en](_| )]log[s](_| )north-south = 17:11
+	acacia(_| )[wood[en](_| )]log[s](_| )north-south = 162:8
+	dark(_| )oak(_| )[wood[en](_| )]log[s](_| )north-south = 162:9
+	[<any>](_| )[wood[en](_| )]log[s](_| )north-south = 17:8-11, 162:8-9
 
-	oak(_| )[wood[en](_| )]log¦s(_| )east-west = 17:4
-	spruce(_| )[wood[en](_| )]log¦s(_| )east-west = 17:5
-	birch(_| )[wood[en](_| )]log¦s(_| )east-west = 17:6
-	junsgle(_| )[wood[en](_| )]log¦s(_| )east-west = 17:7
-	acacia(_| )[wood[en](_| )]log¦s(_| )east-west = 162:4
-	dark(_| )oak(_| )[wood[en](_| )]log¦s(_| )east-west = 162:5
-	[<any>](_| )[wood[en](_| )]log¦s(_| )east-west = 17:4-7, 162:4-5
-
-	[<any>](_| )oak(_| )[wood[en](_| )]log¦s = 17, 17:8, 17:4
-	[<any>](_| )spruce(_| )[wood[en](_| )]log¦s = 17:1, 17:9, 17:5
-	[<any>](_| )birch(_| )[wood[en](_| )]log¦s = 17:2, 17:10, 17:6
-	[<any>](_| )jungle(_| )[wood[en](_| )]log¦s = 17:3, 17:11, 17:7
-	[<any>](_| )acacia(_| )[wood[en](_| )]log¦s = 162, 162:8, 162:4
-	[<any>](_| )dark(_| )oak(_| )[wood[en](_| )]log¦s = 162:1, 162:9, 162:5
+	oak(_| )[wood[en](_| )]log[s](_| )east-west = 17:4
+	spruce(_| )[wood[en](_| )]log[s](_| )east-west = 17:5
+	birch(_| )[wood[en](_| )]log[s](_| )east-west = 17:6
+	jungle(_| )[wood[en](_| )]log[s](_| )east-west = 17:7
+	acacia(_| )[wood[en](_| )]log[s](_| )east-west = 162:4
+	dark(_| )oak(_| )[wood[en](_| )]log[s](_| )east-west = 162:5
+	[<any>](_| )[wood[en](_| )]log[s](_| )east-west = 17:4-7, 162:4-5
+	
+	[<any>](_| )[wood[en](_| )]log¦s = 17:0-11, 162:0-1, 162:4-5, 162:8-9
 
 	# ---
 
@@ -1529,8 +1534,6 @@ default aliases:
 	#[<any>](_| )glass pane = 102, [<any>](_| )stained glass pane
 
 	#[<any>](_| )glass = [<any>](_| )glass block, [<any>](_| )glass pane
-
-	[<any>](_| )log = 162:0-1, 17:0-3
 
 	[<any>] leaves = 18:0-15, 161:0-15
 	[<any>] permanent leaves = 18:4-7, 18:12-15, 161:4-7, 161:12-15

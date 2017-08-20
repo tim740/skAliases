@@ -408,10 +408,10 @@ default aliases:
 	beetroot(_| )seeds = 435
 	beetroot(_| )soup¦s = 436
 	dragon(_| )breath¦s = 437
-	splash[(_| )]woter[(_| )]bottle¦s = 438
+	splash(_| )woter(_| )bottle¦s = 438
 	spectral(_| )arrow¦s = 439
 	tipped(_| )arrow¦s = 440
-	lingering[(_| )]woter[(_| )]bottle¦s = 441
+	lingering(_| )woter(_| )bottle¦s = 441
 	shield¦s = 442
 	elytra¦s = 443
 	spruce(_| )boat¦s = 444

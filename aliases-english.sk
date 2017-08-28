@@ -1426,7 +1426,7 @@ default aliases:
 	carrot[s](_| )on(_| )[a(_| )]stick¦s = 398
 	(nether|wither)(_| )star¦s = 399
 	pumpkin(_| )pie¦s = 400
-	firework(_| )rocket¦s = 401
+	firework[(_| )rocket]¦s = 401
 	firework(_| )star¦s = 402
 	enchanted(_| )book¦s @an = 403
 	redstone(_| )comparator(_| )item¦s = 404

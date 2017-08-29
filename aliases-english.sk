@@ -921,8 +921,8 @@ default aliases:
 
 #nether brick stairs=114
 
-	nether(_| )wart(_| )plant(_| )[block¦s] = 115
-	[freshly](_| )planted(_| )nether(_| )wart(_| )[block¦s] = 115
+	nether(_| )wart(_| )plant[(_| )block]¦s = 115
+	[freshly](_| )planted(_| )nether(_| )wart[(_| )block]¦s = 115
 	ripe(_| )nether(_| )wart¦s = 115:3
 	nether(_| )wart¦s = 115, 372
 

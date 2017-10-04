@@ -1,4 +1,4 @@
-﻿#! VERSION: 2.0.8!
+#! VERSION: 2.0.8!
 
 #Clean up, ID order and updated by tim740, I will be updating this from now on!
 #Check out my other content here: https://tim740.github.io/
@@ -187,14 +187,14 @@ default aliases:
 		<any> = :0-1, :3-5, :8-9, :11-13
 		stone = :0, :8
 		sandstone = :1, :9
-		cobble[stone] = :3, :11
+		cobble[[(_| )]stone] = :3, :11
 		brick = :4, :12
 		stone(_| )brick[s] = :5, :13
 	{stone slab type no default}:
 		<any> = :0-1, :3-5, :8-9, :11-13
 		stone = :0, :8
 		sandstone = :1, :9
-		cobble[stone] = :3, :11
+		cobble[[(_| )]stone] = :3, :11
 		brick = :4, :12
 		stone(_| )brick[s] = :5, :13
 
@@ -213,7 +213,7 @@ default aliases:
 		birch(_| )[wood] = 135
 		jungle(_| )[wood] = 136
 		[any](_| )wood[en] = 53, 134, 135, 136
-		cobble[stone] = 67
+		cobble[[(_| )]stone] = 67
 		[clay](_| )brick[s] = 108
 		stone(_| )brick[s] = 109
 		nether(_| )[brick[s]] = 114
@@ -463,7 +463,7 @@ default aliases:
 	coarse(_| )dirt = 3:1
 	podzol = 3:2
 
-	cobble[(_| )stone] = 4
+	cobble[[(_| )]stone] = 4
 
 	oak(_| )[wood[en](_| )]plank¦s = 5
 	spruce(_| )[wood[en](_| )]plank¦s = 5:1
@@ -697,7 +697,7 @@ default aliases:
 
 	book[s][(_| )]shel¦f¦ves = 47
 
-	moss[y](_| )cobble[(_| )stone] = 48
+	moss[y](_| )cobble[[(_| )]stone] = 48
 
 	obsidian = 49
 
@@ -871,7 +871,7 @@ default aliases:
 	silverfish(_| )block¦s = 97:0-2
 	hidden(_| )silverfish¦es = 97:0-2
 	[hidden](_| )[smooth](_| )stone(_| )silverfish¦es = 97:0
-	[hidden](_| )cobble[stone](_| )silverfish¦es = 97:1
+	[hidden](_| )cobble[[(_| )]stone](_| )silverfish¦es = 97:1
 	[hidden](_| )stone(_| )brick[s](_| )silverfish¦es = 97:2
 
 	stone(_| )brick¦s = 98:0-3
@@ -982,10 +982,10 @@ default aliases:
 
 	beacon¦s = 138
 
-	cobble[stone](_| )wall¦s = 139:0-1
-	cobble[stone](_| )wall(_| )(item|block)¦s = 139:0
-	(normal|regular)(_| )cobble[stone](_| )wall¦s = 139:0
-	moss[y](_| )cobble[stone](_| )wall¦s = 139:1
+	cobble[[(_| )]stone](_| )wall¦s = 139:0-1
+	cobble[[(_| )]stone](_| )wall(_| )(item|block)¦s = 139:0
+	(normal|regular)(_| )cobble[[(_| )]stone](_| )wall¦s = 139:0
+	moss[y](_| )cobble[[(_| )]stone](_| )wall¦s = 139:1
 
 	{flower pot}(_| )flower(_| )pot¦s = 140
 	{flower pot}(_| )flower(_| )pot(_| )block¦s = 140

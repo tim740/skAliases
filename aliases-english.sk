@@ -1221,8 +1221,7 @@ default aliases:
 	iron(_| )axe¦s @an = 258
 	flint(_| )and(_| )steel¦s = 259
 	flint'n'steel¦s = 259
-	apple¦s @an = 260
-	red(_| )apple¦s = 260
+	[red(_| )]apple[(_| )item]¦s @an = 260
 	[<any>](_| )apple¦s = 260, 322:0-1
 	bow¦s = 261
 	arrow¦s = 262
@@ -1300,9 +1299,9 @@ default aliases:
 	raw(_| )pork[chop]¦s = 319
 	(cooked|grilled)(_| )pork[chop]¦s = 320
 	painting[(_| )item]¦s = 321
-	golden(_| )apple¦s = 322:0-1
-	golden(_| )apple(_| )item¦s = 322:0
-	(god|notch|enchanted|super)(_| )golden(_| )apple¦s @an = 322:1
+	[<any>](_| )gold[en](_| )apple¦s = 322:0-1
+	(normal(_| )golden(_| )apple[(_| )item]|gold[en](_| )apple(_| )item)¦s = 322:0
+	(god|notch|enchanted|super)[(_| )gold[en]](_| )apple[(_| )item]¦s @an = 322:1
 	sign(_| )item¦s = 323
 	oak(_| )door[s](_| )item¦s = 324
 	[empty](_| )bucket¦s = 325

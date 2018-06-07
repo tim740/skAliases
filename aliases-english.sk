@@ -1,9 +1,3 @@
-#! VERSION: 2.0.8!
-
-#Clean up, ID order, fixes and updated by tim740, I will be updating this from now on!
-#Check out my other content here: https://tim740.github.io
-#Download at: https://github.com/tim740/skAliases/releases
-
 item = item¦s
 block = block¦s
 
@@ -46,7 +40,7 @@ collections:
 	# note: the above aliases are used in 'furnace automatisation.cfg'
 
 	# all food which can be eaten by rightclicking, i.e. doesn't include cake.
-	food¦s = any apple, mushroom soup, bread, any porkchop, any fish, cookie, melon slice, any beef, any chicken, rotten flesh, any carrot, any potato, pumpkin pie
+	food¦s = any apple, mushroom soup, bread, any porkchop, any fish, cookie, melon slice, any beef, any chicken, rotten flesh, carrot, golden carrot, any potato, pumpkin pie
 	# the same list but without raw food & rotten flesh
 	healthy(_| )food¦s = any apple, mushroom soup, bread, cooked porkchop, cooked fish, cookie, melon slice, steak, cooked chicken, any carrot, potato, baked potato, pumpkin pie
 
@@ -994,9 +988,11 @@ default aliases:
 	flower(_| )pot¦s = 140, 390
 
 	carrot(_| )plant¦s = 141
+	ripe(_| )carrot(_| )plant¦s = 141:7
 	carrot[s](_| )block¦s = 141
 
 	potato(_| )plant¦s = 142
+	ripe(_| )potato(_| )plant¦s = 142:7
 	potato[es](_| )block¦s = 142
 
 #wooden button=143
@@ -1441,13 +1437,12 @@ default aliases:
 	item(_| )frame¦s = 389
 	flower(_| )pot(_| )item¦s = 390
 	carrot[s](_| )[item¦s] = 391
-	carrot[s](_| )[item¦s] = 391, 396
+	gold[en](_| )carrot[s](_| )[item¦s] = 396
 	potato[es](_| )[item]¦s = 392
 	baked(_| )potato¦es = 393
 	poison[ous](_| )potato¦es = 394
 	potato¦es = 392, 393, 394
 	empty(_| )map¦s @an = 395
-	gold[en](_| )carrot¦s = 396
 	{mob head type}(_| )[mob](_| )head[(_| )item]¦s = 397
 	carrot[s](_| )on(_| )[a(_| )]stick¦s = 398
 	(nether|wither)(_| )star¦s = 399
